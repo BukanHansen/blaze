@@ -1,0 +1,20 @@
+{
+    "name": "blaze/blazephp",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Blaze\\": "src/",
+            "Database\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BukanHansen",
+            "email": "bukanhansen@gmail.com"
+        }
+    ]
+}
